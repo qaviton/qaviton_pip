@@ -9,7 +9,7 @@ if __name__ == "__main__":
     with open("README.md", encoding="utf8") as f: long_description = f.read()
     setup(
         name=package_name,
-        version="2019.9.23.3.13.21.799826",
+        version="2019.9.29.8.1.45.50215",
         author=__author__,
         author_email=__author_email__,
         description=__description__,
@@ -23,4 +23,5 @@ if __name__ == "__main__":
         ],
         install_requires=requirements
     )
+
 
